@@ -1,0 +1,80 @@
+.reviews {
+  padding: 60px 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 38px;
+  margin-bottom: 50px;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+/* Жалпы стиль карточкаларға */
+.review-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.18);
+}
+
+.review-card p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.review-card h4 {
+  font-size: 16px;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Әр карточкаға бөлек түстер */
+.review-card-1 { background-color: #fff7f0; }
+.review-card-2 { background-color: #f0fff4; }
+.review-card-3 { background-color: #f0f4ff; }
+.review-card-4 { background-color: #fff0f7; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh; /* толық экран */
+    background-image: url("images/bg.jpg"); /* фото */
+    background-size: cover; /* экранға созу */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+
+    /* қаралау эффект */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #ffcc66;
+}
